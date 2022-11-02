@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poor+Story&family=Quicksand:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  z-index: 0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  font-size: 28px;
+  background-color: rgb(255, 214, 160);
+}
+
+.label {
+  color: rgb(15, 126, 0);
+  padding-top: 30px;
+}
+
+h1 {
+  color: chocolate;
+  font-size: 80px;
+  font-family: "Poor Story", cursive;
+  margin-top: 20px;
+}
+
+h2 {
+  color: brown;
+  margin-top: 10px;
+}
+.grid {
+  margin-top: 20px;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("grass.png");
+  z-index: 1;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  border: 2px solid rgb(15, 126, 0);
+}
+
+.mole {
+  background-image: url("whacmole.png");
+}
